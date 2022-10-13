@@ -17,10 +17,6 @@ a{
     text-decoration: none;
 }
 
-img{
-    cursor: zoom-in;
-}
-
 /*! Classes */
 .clearfix::after{
     display: table;
@@ -68,6 +64,7 @@ main p{
 
 .profile-card:hover{
     box-shadow: 0 10px 10px #727678;
+    transform: scale(1.2);
 }
 
 .profile-card:not(.profile-card:nth-of-type(3n+3)){
@@ -86,6 +83,7 @@ main p{
 
 .profile-informations :hover{
     transform: scale(1.1);
+    transition: all .2s ease-in;
 }
 
 .profile-informations :nth-child(2){
