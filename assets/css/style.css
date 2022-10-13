@@ -13,18 +13,48 @@ body{
     font-family: 'Fredoka', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+/*! Classes */
+.clearfix{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+
+
+/** SPECIFIC STYLE CHANGES: Main Section */
 main{
     width: 68%;
     margin: 0 auto;
 }
 
+/*! Main Title */
 main h1{
     color: #e43f79;
     text-align: center;
-    padding: 1.9rem;
+    padding: 1.9rem 0 2.7rem;
     font-size: 2.3rem;
 }
 
+/*! Main Paragraph */
 main p{
     text-align: center;
+}
+
+/*! Profile Cards */
+.profile-card{
+    margin-top: 2rem;
+    background-color: black;
+}
+
+.profile-card h2{
+    color: #fefdfb;
+}
+
+.profile-job{
+    color: #e6dfdf;
 }
