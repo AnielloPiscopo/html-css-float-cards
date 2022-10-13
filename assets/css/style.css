@@ -24,6 +24,10 @@ a{
     clear: both;
 }
 
+.fl-lf{
+    float: left;
+}
+
 
 
 /** SPECIFIC STYLE CHANGES: Main Section */
@@ -53,6 +57,7 @@ main p{
 
 .profile-card h2{
     color: #fefdfb;
+    text-transform: uppercase;
 }
 
 .profile-job{
