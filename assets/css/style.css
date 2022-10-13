@@ -12,3 +12,17 @@
 body{
     font-family: 'Fredoka', sans-serif;
 }
+
+main{
+    width: 68%;
+    margin: 0 auto;
+}
+
+main h1{
+    color: #e43f79;
+    text-align: center;
+}
+
+main p{
+    text-align: center;
+}
