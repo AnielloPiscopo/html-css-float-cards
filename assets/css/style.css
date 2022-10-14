@@ -32,6 +32,10 @@ a{
     float: right;
 }
 
+.centered-text{
+    text-align: center;
+}
+
 
 
 /** SPECIFIC STYLE CHANGES: Main Section */
@@ -41,16 +45,11 @@ main{
 }
 
 /*! Main Title */
-main h1{
+main header h1{
     color: #e43f79;
     text-align: center;
     padding: 1.9rem 0 2.7rem;
     font-size: 2.3rem;
-}
-
-/*! Main Paragraph */
-main p{
-    text-align: center;
 }
 
 /*! Profile Cards */
@@ -59,17 +58,14 @@ main p{
     background-color: black;
     box-shadow: 0 3px 10px #727678;
     height: 5.5rem;
-    width: calc((100% /3 ) - 2rem);
-    min-width: 350px;
+    width: calc((100% / 3 ) - 2.5rem);
+    min-width: 300px;
+    margin-right: 2.5rem;
 }
 
 .profile-card:hover{
     box-shadow: 0 10px 10px #727678;
     transform: scale(1.2);
-}
-
-.profile-card:not(.profile-card:nth-of-type(3n+3)){
-    margin-right: 2.5rem;
 }
 
 .profile-card img{
@@ -80,15 +76,12 @@ main p{
 .profile-informations{
     width: 70%;
     padding: 0.7rem 0 0 0.7rem;
+    line-height: 1.5rem;
 }
 
 .profile-informations :hover{
     transform: scale(1.1);
     transition: all .2s ease-in;
-}
-
-.profile-informations :nth-child(2){
-    margin: 0.3rem 0;
 }
 
 .profile-informations h2{
