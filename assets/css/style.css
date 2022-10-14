@@ -60,6 +60,7 @@ main p{
     box-shadow: 0 3px 10px #727678;
     height: 5.5rem;
     width: calc((100% /3 ) - 2rem);
+    min-width: 350px;
 }
 
 .profile-card:hover{
